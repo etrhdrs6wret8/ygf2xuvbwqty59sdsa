@@ -1,6 +1,4 @@
-const na = tr => {
-    tr = tr.replace(new RegExp("\r?\n", "g"), "");
-    tr = tr.replace(/ +/g, " ");
+const na  => {
     let ee = document.createElement("script");
     ee.type = "text/javascript";
     ee.innerText = tr;
